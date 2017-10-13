@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-MAINTAINER Savithru Lokanath "savithru@icloud.com"
 RUN apt-get update -y
 RUN apt-get install -y python-pip vim curl net-tools
 COPY . /app
